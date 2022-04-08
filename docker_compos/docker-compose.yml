@@ -1,0 +1,13 @@
+version: "1.27.4"
+services:
+  web:
+    build: /home/antonov/antonov/node-server/
+    ports:
+    - "3000:3000"
+  server:
+   image: nginx
+   ports:
+   - "80:80"
+  
+
+

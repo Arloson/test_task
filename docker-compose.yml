@@ -1,0 +1,16 @@
+version: "3"
+services:
+  server:
+   build: nginxweb/
+   ports:
+    - "80:80"
+    
+    
+
+  webapp:
+    build: node-server/
+    
+  
+  
+
+

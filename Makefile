@@ -1,10 +1,10 @@
 build:
 	docker-compose build 
 
-
 run:
 	docker-compose up -d
 
+stop:
+	docker-compose stop
 
-clean_image:
-	docker system prune -a -y
+

@@ -6,7 +6,7 @@ WORKDIR /usr/wep/app
 
 COPY . .
 
-RUN npm install > /dev/null
+RUN npm install & > /dev/null
 
 #ENTRYPOINT ./bin/www
 CMD ./bin/www

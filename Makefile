@@ -8,3 +8,4 @@ stop:
 	docker-compose stop
 
 
+test

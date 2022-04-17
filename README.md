@@ -1,9 +1,6 @@
 new branch
-<<<<<<< HEAD
 test
-=======
 main 
->>>>>>> new_branch
 main
 Деплой ubuntu 20.04:
 
